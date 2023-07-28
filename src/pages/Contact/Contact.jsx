@@ -21,7 +21,7 @@ const Contact = () => {
                         <input style={{width:'13rem'}} className="border border-black rounded px-2" type="email" name="email" id="" placeholder="email" />
                     </div>
                     <div className="mt-2">
-                       <textarea  className="textarea border-black textarea-bordered  w-full" placeholder="Bio" name="message" id=""  rows="10"></textarea>
+                       <textarea  className="textarea border-black textarea-bordered  w-full" placeholder="Bio" name="message" ></textarea>
                     </div>
                     <input className="btn btn-primary w-full mt-4" type="submit" value="Submit" />
                 </div>
